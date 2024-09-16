@@ -1,5 +1,6 @@
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   const welcome = useRef(null);
@@ -32,6 +33,7 @@ const Home = () => {
   return (
     <main className="w-full flex items-center justify-center min-h-screen text-white relative overflow-hidden">
       <div className="moveBackground absolute w-full h-full bg-no-repeat bg-primary bg-cover -z-10"></div>
+      <Navbar />
       <section className="md:w-[80vw] w-[100vw] h-full">
         <div className="flex flex-col items-center justify-between">
           <div className="text-center drop-shadow-lg">
@@ -52,8 +54,7 @@ const Home = () => {
             className="mt-4 text-base lg:text-lg text-white font-light text-center w-11/12 lg:w-2/4 opacity-0 -translate-x-20"
             ref={paragraph}
           >
-            Welcome to the world of Dinosaurs! Discover different types of
-            dinosaurs, learn fun facts, and play a mini-quiz game!
+            Welcome to the world of Dinosaurs! Discover different types of dinosaurs, learn fun facts, and play a mini-quiz game!
           </p>
         </div>
         <div className="flex items-center justify-center relative mt-14">
