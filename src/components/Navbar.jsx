@@ -1,4 +1,4 @@
-import NavLogo from "../assets/dino-logo.svg";
+import NavLogo from "/dino-logo.svg";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -13,10 +13,10 @@ export default function Navbar() {
         </p>
       </Link>
       <div className="flex items-center justify-between md:gap-8 md:font-semibold font-normal gap-2">
-        <Link to="/" 
+        <Link to="/story" 
           className="text-shadow md:text-lg text-white transition duration-200 hover:text-[#78ff2a] text-sm"
         >
-          Info
+          Story
         </Link>
         <Link to="/"
           className="text-shadow md:text-lg text-white transition duration-200 hover:text-[#78ff2a] text-sm"
