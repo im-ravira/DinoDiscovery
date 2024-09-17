@@ -1,6 +1,8 @@
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
 import Navbar from "../components/Navbar";
+import { Link } from "react-router-dom";
+import DinoIcon from "../assets/dinosaur-pixel.svg";
 
 const Home = () => {
   const welcome = useRef(null);
@@ -58,12 +60,12 @@ const Home = () => {
           </p>
         </div>
         <div className="flex items-center justify-center relative mt-14">
-          <a
-            href="/#/sharksinfo"
+          <Link
+            to="/dinosaurs"
             className="btn btn-animated text-base font-medium"
           >
-            Explore
-          </a>
+            <button className="flex flex-row items-center justify-center gap-2 font-Berkshire text-xl"><img className="size-10 relative" src={DinoIcon} alt="" />Discover Dino's</button>
+          </Link>
         </div>
       </section>
     </main>
