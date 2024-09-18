@@ -6,7 +6,7 @@ import DinoIcon from "../assets/dinosaur-pixel.svg";
 
 const Home = () => {
   const welcome = useRef(null);
-  const shark = useRef(null);
+  const DinoWorld = useRef(null);
   const paragraph = useRef(null);
 
   useEffect(() => {
@@ -17,17 +17,17 @@ const Home = () => {
       duration: 1,
     });
 
-    gsap.to(shark.current, {
+    gsap.to(DinoWorld.current, {
       x: 0,
       opacity: 1,
-      delay: 0.2,
+      delay: 0.1,
       duration: 1,
     });
 
     gsap.to(paragraph.current, {
       x: 0,
       opacity: 1,
-      delay: 0.5,
+      delay: 0.3,
       duration: 1,
     });
   });
@@ -47,7 +47,7 @@ const Home = () => {
             </h3>
             <h1
               className="bg-gradient-to-b from-[#83ff30] to-[#cc6300] bg-clip-text font-bold text-transparent -translate-x-20 opacity-0 text-5xl md:text-7xl md:bg-red-400"
-              ref={shark}
+              ref={DinoWorld}
             >
               Dinosaur World
             </h1>
