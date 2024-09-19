@@ -8,7 +8,7 @@ export default function Navbar() {
         className="flex items-center hover:scale-105 transform transition duration-300"
       >
         <img className="md:w-8 mr-1 w-6" src={NavLogo} alt="dino-logo" />
-        <p className="font-Berkshire text-white tracking-wide md:text-2xl text-lg">
+        <p className="font-Berkshire text-white tracking-wide md:text-2xl text-bsae">
           DinoDiscovery
         </p>
       </Link>
@@ -18,12 +18,12 @@ export default function Navbar() {
         >
           Story
         </Link>
-        <Link to="/"
+        <Link to="/funfacts"
           className="text-shadow md:text-lg text-white transition duration-200 hover:text-[#78ff2a] text-sm"
         >
-          Fun Facts
+          FunFacts
         </Link>
-        <Link to="/" 
+        <Link to="/quiz" 
           className="text-shadow md:text-lg text-white transition duration-300 hover:text-[#78ff2a] text-sm"
         >
           Quiz
