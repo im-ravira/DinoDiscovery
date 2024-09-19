@@ -3,6 +3,7 @@ import FunFacts1 from "../components/FunFacts1.component";
 import FunFacts2 from "../components/FunFacts2.component";
 import { gsap } from "gsap";
 import { useRef, useEffect } from "react";
+import Footer from "../components/Footer";
 
 const FunFacts = () => {
     const main = useRef(null);
@@ -44,6 +45,7 @@ const FunFacts = () => {
             <FunFacts2 facts="Velociraptors were only the size of turkeys." />
             <FunFacts1 facts="Stegosaurus had a brain the size of a walnut." />
             <FunFacts2 facts="Dinosaurs once lived on every continent, including Antarctica!" />
+            <Footer />
         </main>
     );
 }

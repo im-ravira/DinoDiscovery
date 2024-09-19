@@ -3,6 +3,7 @@ import { useRef, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 import DinoIcon from "../assets/dinosaur-pixel.svg";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const welcome = useRef(null);
@@ -68,6 +69,7 @@ const Home = () => {
           </Link>
         </div>
       </section>
+      <Footer />
     </main>
   );
 };

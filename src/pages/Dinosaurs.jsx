@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import gsap from 'gsap';
 import dinosaurData from '../data/dinosaurs.json'; 
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Dinosaurs = () => {
   const cardInfo = useRef(null);
@@ -32,7 +33,7 @@ const Dinosaurs = () => {
     <Navbar />
     <section className="w-full mx-10 mt-28">
       <h1 className="text-5xl text-center font-bold mb-24">Meet the Different Dinosaurs</h1>
-      <div ref={cardInfo} className="space-y-12">
+      <div ref={cardInfo} className="space-y-12 my-8">
         {dinosaurData.map((dino, index) => (
           <div key={index} id='card'  className="relative flex flex-col md:flex-row bg-[#00000070] rounded-lg items-center justify-center py-12 px-8 ">
             <img src={dino.image} alt={dino.name} id={`dino-image-${index}`} className="w-full md:w-1/3 h-auto object-cover mb-4 md:mb-0 md:mr-4" />
@@ -48,6 +49,7 @@ const Dinosaurs = () => {
         ))}
       </div>
     </section>
+    <Footer />
     </main>
   );
 };

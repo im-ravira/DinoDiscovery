@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import gsap from "gsap";
+import Footer from "../components/Footer";
 
 const Story = () => {
   const heading = useRef(null);
@@ -21,10 +22,8 @@ const Story = () => {
   });
   return (
     <main className="w-full flex flex-col bg-secondary bg-no-repeat bg-cover bg-fixed justify-center items-center min-h-screen text-white relative">
-      <div className="w-full absolute top-0">
         <Navbar />
-      </div>
-      <section className="container max-w-6xl mx-auto px-5 lg:px-20 my-24 md:my-40 relative z-10">
+      <section className="container max-w-6xl mx-auto px-5 lg:px-20 my-28 relative z-10">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-8 text-center opacity-0 -translate-x-20"
         ref={heading}>
           A Journey to <br /> the Land of Dinosaurs
@@ -126,6 +125,7 @@ const Story = () => {
           </p>
         </div>
       </section>
+      <Footer />
     </main>
   );
 };
