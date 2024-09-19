@@ -2,7 +2,7 @@ import dinofact from "../assets/dinofact-2.png";
 
 const FunFacts2 = ({ facts }) => {
     return (
-        <section className="w-[80vw] flex flex-col items-center p-16 gap-14">
+        <section className="w-[80vw] flex flex-col items-center p-20 gap-14">
             <div className="flex w-full flex-row-reverse justify-between gap-16 mt-8">
                 <div className="w-[25vw] shadow-black shadow-xl bg-transparent -translate-y-6 rotate-6 opacity-0" id="img">
                     <img src={dinofact} alt="" />
