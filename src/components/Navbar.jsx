@@ -8,11 +8,11 @@ export default function Navbar() {
         className="flex items-center hover:scale-105 transform transition duration-300"
       >
         <img className="md:w-8 mr-1 w-6" src={NavLogo} alt="dino-logo" />
-        <p className="font-Berkshire text-white tracking-wide md:text-2xl text-bsae">
-          DinoDiscovery
+        <p className="font-Berkshire text-white tracking-wide md:text-2xl text-sm">
+          <span className="md:block hidden">DinoDiscovery</span>
         </p>
       </Link>
-      <div className="flex items-center justify-between md:gap-8 md:font-semibold font-normal gap-2">
+      <div className="flex items-center justify-between md:gap-8 md:font-semibold font-normal gap-x-3">
         <Link to="/story" 
           className="text-shadow md:text-lg text-white transition duration-200 hover:text-[#78ff2a] text-sm"
         >

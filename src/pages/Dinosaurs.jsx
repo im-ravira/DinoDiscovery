@@ -31,19 +31,23 @@ const Dinosaurs = () => {
   return (
     <main className="w-full flex bg-secondary bg-no-repeat bg-cover bg-fixed justify-center min-h-screen text-white relative ">
     <Navbar />
-    <section className="w-full mx-10 mt-28">
-      <h1 className="text-5xl text-center font-bold mb-24">Meet the Different Dinosaurs</h1>
-      <div ref={cardInfo} className="space-y-12 my-8">
+    <section className="w-full mx-3 md:mx-10 mt-28 md:mt-36 lg:mt-28">
+      <h1 className="text-xl md:text-4xl lg:text-5xl text-center font-bold mb-24">Meet the Different Dinosaurs</h1>
+      <div ref={cardInfo} className="md:space-y-12 space-y-8 my-8">
         {dinosaurData.map((dino, index) => (
-          <div key={index} id='card'  className="relative flex flex-col md:flex-row bg-[#00000070] rounded-lg items-center justify-center py-12 px-8 ">
-            <img src={dino.image} alt={dino.name} id={`dino-image-${index}`} className="w-full md:w-1/3 h-auto object-cover mb-4 md:mb-0 md:mr-4" />
+          <div key={index} id='card'  className="relative flex flex-col lg:flex-row bg-[#00000070] rounded-xl items-center justify-center py-12 md:px-6 lg:px-8 ">
+            <img src={dino.image} alt={dino.name} id={`dino-image-${index}`} className="w-[80%] md:w-3/4 lg:w-1/3 h-auto object-cover mb-4 md:mb-10 lg:mb-0 mr-10 md:mr-8 lg:mr-4" />
             <button
                   onClick={() => handleAudioPlay(dino.audio, `#dino-image-${index}`)}
-                  className=" absolute top-11 left-96 bg-gray-400/20 text-black rounded-full p-3 hover:bg-gray-950"
+                  className=" absolute hidden md:block md:top-11 max-lg:right-12 lg:left-[22rem] bg-gray-400/20 text-black rounded-full md:p-2 hover:bg-gray-950"
                 >🔊</button>
-            <div className="flex-1 ml-12">
-              <h2 className="text-3xl font-Raleway font-semibold mb-4">{dino.name}</h2>
-              <p className='leading-relaxed text-lg font-light text-justify'>{dino.description}</p>
+            <div className="flex-1 mx-4 lg:ml-12">
+              <div className='flex flex-row items-center justify-between mb-1'><h2 className="text-lg md:text-3xl font-Raleway font-semibold mb-2 md:mb-4">{dino.name}</h2>
+              <button
+                  onClick={() => handleAudioPlay(dino.audio, `#dino-image-${index}`)}
+                  className="mb-2 mr-2 bg-gray-400/20 text-black text-sm rounded-full p-1 hover:bg-gray-950 block md:hidden"
+                >🔊</button></div>
+              <p className='leading-relaxed text-sm md:text-lg font-light text-pretty text-justify'>{dino.description}</p>
             </div>
           </div>
         ))}

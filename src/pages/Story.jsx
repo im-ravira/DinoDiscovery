@@ -23,13 +23,13 @@ const Story = () => {
   return (
     <main className="w-full flex flex-col bg-secondary bg-no-repeat bg-cover bg-fixed justify-center items-center min-h-screen text-white relative">
         <Navbar />
-      <section className="container max-w-6xl mx-auto px-5 lg:px-20 my-28 relative z-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-8 text-center opacity-0 -translate-x-20"
+      <section className="container max-w-6xl mx-auto px-2 md:px-5 lg:px-20 my-28 relative z-10">
+        <h1 className="text-xl md:text-4xl lg:text-6xl font-extrabold mb-8 text-center opacity-0 -translate-x-20"
         ref={heading}>
-          A Journey to <br /> the Land of Dinosaurs
+          A Journey to <br className="lg:block hidden"/> the Land of Dinosaurs
         </h1>
 
-        <div className="space-y-8 text-lg md:text-xl leading-relaxed opacity-0 -translate-x-20"
+        <div className="space-y-4 md:space-y-6 lg:space-y-8 mx-2 text-justify text-pretty text-base md:text-lg lg:text-xl leading-relaxed opacity-0 -translate-x-20"
         ref={paragraph}>
           <p>
             ⏳ Millions of years ago, long before humans walked the Earth, giant

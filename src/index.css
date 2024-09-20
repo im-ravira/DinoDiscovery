@@ -12,7 +12,7 @@
 }
 .btn {
   text-decoration: none;
-  padding: 0.25rem 4rem;
+  padding: 0.25rem 5rem;
   display: inline-block;
   border-radius: 10px;
   transition: all 0.2s;
@@ -21,6 +21,14 @@
   border: 2px solid #ffffff;
   color: #ffffff;
 }
+
+@media screen and (max-width: 600px) {
+  .btn {
+    padding: 0.25rem 4rem;
+    border: 1px solid #ffffff;
+  }
+}
+
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
