@@ -65,7 +65,7 @@ const Home = () => {
             to="/dinosaurs"
             className="btn btn-animated text-base font-medium"
           >
-            <button className="flex flex-row items-center justify-center gap-2 font-Berkshire text-sm md:text-xl"><img className="size-8 md:size-10 relative" src={DinoIcon} alt="" />Discover Dino's</button>
+            <button className="flex flex-row items-center justify-center gap-2 font-Berkshire text-sm md:text-xl"><img className="size-8 md:size-10 relative" src={DinoIcon} alt="" />Discover Dino&lsquo;s</button>
           </Link>
         </div>
       </section>

@@ -31,7 +31,7 @@ const FunFacts = () => {
             delay: .4,
             duration: 1
         });
-    }, []);
+    }, [q]);
 
     return (
         <main className="w-full flex-col flex bg-fixed bg-secondary bg-no-repeat bg-cover items-center justify-center min-h-screen text-white relative overflow-hidden" ref={main}>

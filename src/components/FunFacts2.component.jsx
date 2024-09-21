@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import dinofact from "../assets/dinofact-2.png";
 
 const FunFacts2 = ({ facts }) => {
@@ -15,5 +16,7 @@ const FunFacts2 = ({ facts }) => {
         </section>
     );
 }
-
+FunFacts2.propTypes = {
+    facts: PropTypes.string.isRequired,
+};
 export default FunFacts2;

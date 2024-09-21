@@ -55,7 +55,7 @@ const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const quizRef = useRef(null); // Ref for the quiz container
+  const quizRef = useRef(null);
 
   useEffect(() => {
     gsap.fromTo(
@@ -116,6 +116,7 @@ const Quiz = () => {
               <div className="grid grid-cols-1  lg:grid-cols-2 gap-x-10 px-10 gap-3 md:gap-y-10 w-full md:pb-10 py-4">
                 {QUIZ_QUESTIONS[currentQuestion].Answers.map((answer) => (
                   <button
+                  key={answer.Answer}
                     className="border-[#d6ffc2] border-2 rounded-full md:p-2 text-[#d6ffc2] font-semibold transform transition duration-500 hover:scale-105 hover:bg-[#d6ffc2] hover:text-black p-1"
                     onClick={() => handleAnswerResponse(answer.isCorrect)}
                   >
