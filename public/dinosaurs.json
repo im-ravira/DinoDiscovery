@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Tyrannosaurus Rex (T. rex)",
+      "description": "The Tyrannosaurus Rex was one of the largest carnivorous dinosaurs. It lived during the Late Cretaceous period, around 68 to 66 million years ago. T. rex had a massive head with powerful jaws filled with sharp, serrated teeth that could easily crush bone. This dinosaur could grow up to 40 feet long and stand over 12 feet tall at the hips. Its short but strong arms ended in two clawed fingers, and it had a long, heavy tail to help balance its massive body. Despite its size, scientists believe T. rex was a fast runner, able to chase down prey. It was likely a top predator, hunting large plant-eating dinosaurs, but it might also have scavenged for food. Fossil evidence shows that T. rex had an excellent sense of smell, helping it track prey over long distances.",
+      "image": "./src/assets/Dinosaurs/images/T.rex.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/T.rex.mp3"
+    },
+    {
+      "name": "Triceratops",
+      "description": "Triceratops was a large, plant-eating dinosaur that lived during the Late Cretaceous period, around the same time as T. rex. It had three facial horns two long ones above its eyes and a smaller one on its nose. Triceratops also had a large frill made of bone at the back of its head, which may have been used for protection or to attract mates. This dinosaur could grow up to 30 feet long and weigh as much as 12 tons. Its strong legs and broad body made it well-suited for foraging and moving through dense forests. Triceratops used its horns to defend itself from predators like T. rex. Fossil evidence suggests that they may have lived in herds for additional protection. The name Triceratops means \"three-horned face,\" which perfectly describes its most distinctive feature.",
+      "image": "./src/assets/Dinosaurs/images/triceratops.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/triceratops.mp3"
+    },
+    {
+      "name": "Velociraptor",
+      "description": "Velociraptor was a small but agile carnivorous dinosaur that lived during the Late Cretaceous period. It was about the size of a modern turkey, much smaller than how it’s often portrayed in movies. This dinosaur had sharp, sickle-shaped claws on its feet, especially the large one on its second toe, which it used to slash at prey. Velociraptors were intelligent hunters and may have hunted in packs, allowing them to take down prey larger than themselves. Fossil evidence suggests that they were likely covered in feathers, which could have helped with temperature regulation or display. Despite its small size, Velociraptor had a powerful bite and sharp teeth. It lived in what is now Mongolia, hunting smaller dinosaurs and other animals. Their name means \"swift thief,\" referring to their speed and hunting skill.",
+      "image": "./src/assets/Dinosaurs/images/velociraptor.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/velociraptor.mp3"
+    },
+    {
+      "name": "Stegosaurus",
+      "description": "Stegosaurus was a large, plant-eating dinosaur that lived during the Jurassic period, about 150 million years ago. It is best known for the large, flat, bony plates that ran in two rows along its back. These plates may have been used to regulate body temperature or as a display to attract mates. Stegosaurus also had a tail with long, sharp spikes called \"thagomizers\" that it used to defend itself from predators like Allosaurus. Despite its large size, Stegosaurus had a very small brain, roughly the size of a walnut. It could grow up to 30 feet long and weighed around 5 tons. Stegosaurus primarily ate low-lying plants and may have used its beak-like mouth to strip leaves from plants. This dinosaur was a slow-moving animal, likely because of its heavy body and short legs.",
+      "image": "./src/assets/Dinosaurs/images/stegosaurus.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/stegosaurus.mp3"
+    },
+    {
+      "name": "Brachiosaurus",
+      "description": "Brachiosaurus was one of the tallest and largest dinosaurs that lived during the Late Jurassic period. It could stand up to 40-50 feet tall, with its long neck making up a significant portion of its height. Brachiosaurus used its long neck to reach vegetation high up in trees, feeding on plants that other herbivores couldn&rsquo;t access. Unlike most dinosaurs, its front legs were longer than its back legs, giving it a sloped body shape. This dinosaur could weigh up to 80 tons, making it one of the heaviest animals to ever walk the Earth. It had a small head compared to its massive body, and it likely spent much of its time eating to fuel its enormous size. Brachiosaurus lived in herds and may have traveled long distances to find enough food. Fossils have been found in North America and Africa, showing that they lived in a variety of environments.",
+      "image": "./src/assets/Dinosaurs/images/brachiosaurus.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/brachiosaurus.mp3"
+    },
+    {
+      "name": "Ankylosaurus",
+      "description": "Ankylosaurus was a heavily armored, plant-eating dinosaur that lived during the Late Cretaceous period. Its body was covered with bony plates, making it look like a living tank. The most notable feature of Ankylosaurus was the large, bony club at the end of its tail, which it used to defend itself from predators. This dinosaur could grow up to 30 feet long and weighed around 6 tons. Despite its bulky appearance, Ankylosaurus could move quickly if it needed to escape danger. The armor on its body included spikes and thick plates that protected it from attacks. Ankylosaurus had a wide, flat body and short legs, and it likely ate low-growing plants. Its large size and defensive features made it one of the hardest dinosaurs for predators to attack successfully.",
+      "image": "./src/assets/Dinosaurs/images/ankylosaurus.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/ankylosaurus.mp3"
+    },
+    {
+      "name": "Spinosaurus",
+      "description": "Spinosaurus was one of the largest carnivorous dinosaurs, even bigger than T. rex, and lived during the Cretaceous period. It could grow over 50 feet long and had a distinctive sail on its back, made of tall vertebrae covered by skin. Scientists believe Spinosaurus was semi-aquatic, spending much of its time in water and hunting fish as well as land animals. It had long, crocodile-like jaws filled with conical teeth, perfect for catching slippery prey. Fossil evidence suggests that Spinosaurus may have used its sail to regulate body temperature or to attract mates. Its long, muscular arms had sharp claws, which helped it catch prey both on land and in water. Spinosaurus lived in what is now North Africa, where it inhabited swampy areas. It was one of the few dinosaurs adapted to both land and water environments.",
+      "image": "./src/assets/Dinosaurs/images/spinosaurus.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/spinosaurus.mp3"
+    },
+    {
+      "name": "Pachycephalosaurus",
+      "description": "Pachycephalosaurus was a plant-eating dinosaur that lived during the Late Cretaceous period. It is best known for its thick, domed skull, which could be up to 10 inches thick. Scientists believe that Pachycephalosaurus used its thick skull to headbutt rivals, possibly during fights for territory or mates. This dinosaur could grow up to 15 feet long and weighed around 1 ton. Despite its tough head, the rest of its body was relatively light and agile, allowing it to move quickly. Pachycephalosaurus had small, leaf-shaped teeth, which were perfect for chewing soft plants. It likely lived in forests or open woodlands, where it could feed on low-lying vegetation. Fossil evidence has been found in North America, and it is believed that Pachycephalosaurus lived in small groups.",
+      "image": "./src/assets/Dinosaurs/images/pachycephalosaurus.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/pachycephalosaurus.mp3"
+    },
+    {
+      "name": "Allosaurus",
+      "description": "Allosaurus was a large, carnivorous dinosaur that lived during the Jurassic period, around 150 million years ago. It could grow up to 40 feet long and had sharp teeth and claws, making it a top predator of its time. Allosaurus had strong, muscular legs, allowing it to chase down prey, and a long tail for balance. Its arms, although shorter than its legs, had three-fingered hands with sharp claws that helped it catch and hold onto prey. Allosaurus hunted large herbivores like Stegosaurus, and some scientists believe it may have hunted in groups. Fossils show that it had a powerful bite and could attack from different angles. It had a large skull with ridges above its eyes, which may have helped protect its face during fights. Allosaurus fossils have been found in North America and Europe, indicating that it lived in a variety of environments.",
+      "image": "./src/assets/Dinosaurs/images/allosaurus.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/allosaurus.mp3"
+    },
+    {
+      "name": "Parasaurolophus",
+      "description": "Parasaurolophus was a plant-eating dinosaur that lived during the Late Cretaceous period. It is famous for its long, tube-like crest that extended from the back of its head. Scientists believe that Parasaurolophus used its crest to make sounds, possibly for communication within its herd. This dinosaur could grow up to 33 feet long and weighed around 3 tons. Parasaurolophus had a long, slender body and could walk on both two and four legs, depending on what it was doing. It lived in areas with rivers and forests, where it fed on plants such as ferns and conifers. The crest may have also helped with regulating body temperature. Fossil evidence suggests that Parasaurolophus lived in herds, providing safety in numbers from predators.",
+      "image": "./src/assets/Dinosaurs/images/parasaurolophus.webp",
+      "audio": "./src/assets/Dinosaurs/sounds/parasaurolophus.mp3"
+    }
+  ]
+  

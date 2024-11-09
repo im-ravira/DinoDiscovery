@@ -1,6 +1,5 @@
-import React, { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import gsap from 'gsap';
-import dinosaurData from '../data/dinosaurs.json'; 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -8,6 +7,21 @@ const Dinosaurs = () => {
   const cardInfo = useRef(null);
   const [currentAudio, setCurrentAudio] = useState(null);
   const q2 = gsap.utils.selector(cardInfo);
+  const [dinosaurData, setDinosaurData] = useState([]);
+
+  useEffect(() => {
+    const fetchDinosaurData = async () => {
+      try {
+        const response = await fetch('/dinosaurs.json');
+        const data = await response.json();
+        setDinosaurData(data);
+      } catch (error) {
+        console.error('Error fetching dinosaur data:', error);
+      }
+    };
+
+    fetchDinosaurData();
+  }, []);
 
   useEffect(() => {
     gsap.to(q2("#card"), {
